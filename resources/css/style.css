@@ -223,6 +223,7 @@ header .mobile {
 
 #features-section {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   padding: 4rem 5%;
   background-color: #f3f3f3;
@@ -245,6 +246,7 @@ header .mobile {
 .feature img {
   width: 100%;
   height: auto;
+  flex: 2;
 }
 
 .feature .content {
