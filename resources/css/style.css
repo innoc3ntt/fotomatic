@@ -368,13 +368,15 @@ header .mobile {
 
 #quotes-section {
   background-color: #f3f3f3;
+  padding: 80px 30px;
 }
 
 #quotes-section content {
   padding: 5rem 0;
 }
 
-#quotes-section quote {
+#quotes-section .quote {
+  display: inline-block;
   padding-right: 1.875rem;
   font-family: "Palatino", serif;
   font-size: 1.875rem;
