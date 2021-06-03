@@ -319,7 +319,19 @@ header .mobile {
 
 #filters-section .images-container {
   max-width: 100%;
+  height: auto;
   padding: 0 1%;
+  display: flex;
+}
+
+#filters-section .image-container {
+  width: 25%;
+  height: auto;
+}
+
+#filters-section img {
+  width: 100%;
+  height: auto;
 }
 
 @media only screen and (max-width: 760px) {
